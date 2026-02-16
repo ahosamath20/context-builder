@@ -14,3 +14,6 @@ keywords = ["developer-tools", "cli", "context", "code"]
 
 [project.scripts]
 context-builder = "context_builder.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ahosamath20/context-builder"
