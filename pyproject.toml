@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-builder"
+version = "0.1.0"
+description = "Build code context from absolute file paths"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Abhishek Basavalingaswami Hosamath"}]
+license = {text = "MIT"}
+keywords = ["developer-tools", "cli", "context", "code"]
+
+[project.scripts]
+context-builder = "context_builder.cli:main"
